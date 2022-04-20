@@ -4,7 +4,7 @@ $ip = # IP address of your processor
 $file = # Path to the local cpz file 
 # e.g.   $file = "C:\Users\Admin\Desktop\test.txt"
 $fileLocationOnProcessor = # Path to the remote file. Here you need to define how will the file be named.
-# e.g.   $fileLocationOnProcessor = "\program01\VisualStudioDebugger.cpz"
+# e.g.   $fileLocationOnProcessor = "\temp\text.txt"
 
 #command
 Send-FTPFile -Device $ip -LocalFile $file -RemoteFile $fileLocationOnProcessor -Secure
