@@ -1,4 +1,4 @@
-# Crestron-FTP-Scripts
+# Crestron FTP Scripts
 
 ## How to use scripts?
 
